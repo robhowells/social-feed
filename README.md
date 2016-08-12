@@ -1,1 +1,1 @@
-Template for pulling through instagram posts into a social feed
+Social feed template to pull in Instagram data

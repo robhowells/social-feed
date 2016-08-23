@@ -7,8 +7,9 @@ var socialFeed = (function ($) {
     };
 
     var renderData = function() {
+        var $wrapper = $('.social-feed-wrapper');
         $.each(instagramData, function( index, value ) {
-            $('.social-feed-wrapper').append(value.imgBlock);      
+            $wrapper.append(value.imgBlock);      
         });
     };
 
